@@ -13,7 +13,7 @@ force_ipv4()
 
 app = Flask(__name__)
 
-URL_TO_MONITOR = "https://www.tagesschau.de/"
+URL_TO_MONITOR = "https://www.zeit.de/index"
 HASH_FILE = "last_hash.txt"
 
 SMTP_SERVER = "smtp.gmail.com"
